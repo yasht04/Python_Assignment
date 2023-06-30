@@ -15,7 +15,9 @@ def ds(roll_no,name):
     n1[0] = roll
     n1[1] = name
     n2 = (roll,name)
-    n3 = {roll,name}
+    n3.clear()
+    n3.add(roll)
+    n3.add(name)
     n4["roll no"]= roll
     n4["name"]=name
 
