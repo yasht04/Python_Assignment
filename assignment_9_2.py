@@ -1,0 +1,10 @@
+from assignment_9_1 import math_options
+m = math_options()
+m.add()
+m.sub()
+m.mul()
+m.div()
+m.Ceil()
+m.Floor()
+m.Pow()
+m.sum()
