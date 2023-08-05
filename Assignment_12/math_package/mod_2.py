@@ -4,7 +4,7 @@ class inp(Exception):
 def square():
     try:
         a = float(input("Enter length of side of square: "))
-        if a<=0:
+        if a<= 0:
             raise inp("cannot accept 0 as length.")
         c = 4*a
         print("Circumference:",c)
